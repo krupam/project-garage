@@ -1,0 +1,267 @@
+body , html {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-image: url('./banner.png');
+  background-size: cover;
+  height: 60vh;
+
+}
+
+.App-title {
+  font-size: 1.5em;
+  color: #fff;
+  letter-spacing: 0.6px;
+  font-size: 50px;
+  top: 50%;
+  position: relative;
+  transform: translate(0,-50%);
+}
+
+.head3, .head4 {
+  margin: 0;
+  padding: 0px 0px 20px 0;
+}
+
+.head2 {
+  font-size: 32px;
+  color: #e43c4b;
+  letter-spacing: 0.4px;
+  padding: 20px 0;
+}
+
+.wwd {
+  top: 50%;
+  position: relative;
+  transform: translate(0,-50%);
+}
+
+.wd {
+  left:50%;
+  top:50%;
+  position: relative;
+  transform: translate(-50%,-50%);
+  text-align: left;
+}
+
+
+
+.left-region {
+  /*margin: 60px 0 60px 0;*/
+  background-color: #f1faef;
+}
+
+
+.left-pic {
+  background-image: url('./1.png');
+  height: 200px;
+  width: 200px;
+  float:left;
+  background-size: cover;
+  box-shadow: 5px 5px 15px #d3d3d3;
+  margin: 0px 20px;
+
+}
+
+.right-pic {
+  background-image: url('./2.png');
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  box-shadow: 5px 5px 15px #d3d3d3;
+  float:left;
+  margin: 0px 20px;
+}
+
+.left-text {
+  height: 200px;
+  float:left;
+  width:50%;
+  /*padding-le: 0 20px;*/
+}
+
+.maul {
+  padding: 50px 0;
+  display: inline-block;
+}
+
+.in-bloq {
+  display: inline-block;
+}
+
+.image1 {
+  background-image: url('./6.png');
+}
+
+.image2 {
+  background-image: url('./4.png');
+}
+
+.image3 {
+  background-image: url('./5.png');
+}
+
+.image4 {
+  background-image: url('./6.png');
+}
+
+.image-1 {
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  display: inline-block;
+  margin: 20px;
+}
+
+.head5 {
+  color: #413d3d;
+  font-size: 18px;
+}
+
+.caption {
+  font-size: 14px;
+  color: #7c7c7c;
+  letter-spacing: 0.2px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.sub {
+  height: 300px;
+  margin: 50px 0;
+  border-top: 1px solid #d8d8d8;
+  padding-top: 50px;
+}
+
+.input-group {
+  width:60%;
+  margin: auto;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+
+}
+
+
+.foot {
+  background-color: #1e3656;
+  height: 150px;
+  color: #fff;
+
+}
+.foot p {
+  top: 50%;
+  position: relative;
+  transform: translate(0,-50%);
+}
+.signlogin {
+  background: url('./onboarding-bg.png');
+  height: 100vh;
+  background-size: cover;
+
+
+}
+
+.signup {
+  margin:auto;
+}
+
+.btn-sub {
+  border-radius: 40px;
+  height: 60px;
+  width: 150px;
+  background-color: #1e3656;
+  color: #fff;
+  border: none;
+
+}
+
+#basic-addon2 {
+  background-color: #fff;
+  border-radius: 40px;
+  background-color: #1e3656;
+  border: none;
+  /*padding:0;
+  margin:0;*/
+}
+
+#subs-text {
+  width: 300px;
+  border:none;
+  height: inherit;
+  font-size: 16px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+
+
+.btn-signup {
+
+    background-color: #e43c4b;
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 16px;
+    margin: 50px 0;
+    cursor: pointer;
+    border-radius: 50px;
+
+}
+
+#signuppage input[type=text]{
+  height: 80px;
+  border-radius: 50px;
+  border: none;
+  background-color: rgba(30,54,86,0.1);
+  color: #fff;
+  font-size: 16px;
+  padding-left: 100px;
+}
+
+
+.ic-pic {
+
+  background-position: 25px 50%;
+  background-repeat: no-repeat;
+  margin: 20px 0px;
+
+}
+
+.ic-userpic {
+  background-image: url('./ic-username.png');
+}
+
+.ic-emailpic {
+  background-image: url('./ic-email.png');
+}
+
+.ic-pwdpic {
+  background-image: url('./ic-password.png');
+}
+
+@media (min-width: @screen-sm-min) {
+
+  .wd {
+    left:50%;
+    top:50%;
+    position: relative;
+    transform: translate(-50%,-50%);
+    text-align: center !important;
+  }
+ }
